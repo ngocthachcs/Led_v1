@@ -64,13 +64,9 @@
     <!-- <link rel="apple-touch-icon-precomposed" href="content/uploads/2017/06/cropped-ico-led-180x180.png" /> -->
     <!-- <meta name="msapplication-TileImage" content="content/uploads/2017/06/cropped-ico-led-270x270.png" /> -->
     <style type="text/css" id="wp-custom-css">
-    /*
-         You can add your own CSS here.
-         Click the help icon above to learn more.
-         */
-
     .ncn_support_widget .widget-title {
-        background: #158a00;
+        background: #23B574 !important;
+        color: #ffffff !important
     }
 
     .main-navigation {
@@ -104,8 +100,9 @@
         font-weight: bold;
     }
 
-    .widget-title {
-        background: #158a00;
+    .sidebar .widget-title {
+        background: #23B574;
+        color: #ffffff
     }
 
     .box-col-inner {
@@ -217,9 +214,9 @@
                         <!-- .btn-search-show-mdlg -->
                         <div class="header-nav-cart woocommerce col-md-1 hidden-sm hidden-xs">
                             <div class="ncn_cart_widget widget_shopping_cart">
-                                <div class="shopping-bag">
+                                <div class="shopping-bag" style="color: #23B574 !important">
                                     <i class="fa fa-shopping-bag"></i>
-                                    <span>0</span>
+                                    <span><a href="{{URL('/')}}/gio-hang">{{ count(Cookie::get('giohang'))}}</a></span>
                                 </div>
                                 <!-- <div class="widget_shopping_cart_content"></div> -->
                             </div>
@@ -240,8 +237,7 @@
                         <div id="container">
                             <div id="content" role="main">
                                 <nav class="woocommerce-breadcrumb"><a href="">Trang chủ</a>&nbsp;&#47;&nbsp;Shop</nav>
-                                <p class="woocommerce-result-count">
-                                </p>
+                                
                                 <form class="woocommerce-ordering" method="get">
                                     <select name="orderby" class="orderby">
                                         <option value="">Thứ tự mặc định</option>
@@ -290,20 +286,20 @@
                         <h3 class="widget-title">Hỗ trợ trực tuyến</h3>
                         <div class="support-item clearfix">
                             <div class="support-title">
-                                Hỗ trợ viên: <span>Nguyễn Văn Thao</span>
+                                <span>CÔNG TY TNHH RADOLIGHT</span>
                             </div>
                             <div class="support-info">
                                 <div class="support-thumbnail">
-                                    <img width="60" height="90" src="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" />
+                                    <img width="60" height="90" src="assets/assets/sp.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" />
                                 </div>
                                 <div class="support-chat">
-                                    <p><span style="color: #ff0000;"><strong>Zalo,Viber: 0938 982 410</strong></span>
+                                    <p><span style="color: #ff0000;"><strong>Zalo,Viber: 0931436927</strong></span>
                                         <br />
-                                        <span style="color: #ff0000;"><strong> Phone: 0938 982 410</strong></span>
+                                        <span style="color: #ff0000;"><strong> Phone: 0931436927</strong></span>
                                         <br />
-                                        <span style="color: #ff0000;"><strong> Hotline 1: 028 6278 4888</strong></span>
+                                        <span style="color: #ff0000;"><strong> Email: nguyenminhhieu9696@gmail.com</strong></span>
                                         <br />
-                                        <span style="color: #ff0000;"><strong> Hotline 2: 028 6288 9269</strong></span>
+                                        <!-- <span style="color: #ff0000;"><strong> Hotline 2: 028 6288 9269</strong></span> -->
                                     </p>
                                 </div>
                             </div>
@@ -314,11 +310,11 @@
                         <div class="textwidget">
                             <div id="text-2" class="widget widget_text">
                                 <div class="textwidget">
-                                  @foreach($categorys as $dm)
+                                    @foreach($categorys as $dm)
                                     <p>
-                                      <strong>
-                                        <a href="danh-muc/{{$dm->slug}}">{{$dm->name}}</a>
-                                      </strong>
+                                        <strong>
+                                            <a href="{{URL('/')}}/danh-muc/{{$dm->slug}}">{{$dm->name}}</a>
+                                        </strong>
                                     </p>
                                     @endforeach
                                 </div>
@@ -334,16 +330,7 @@
                               <img width="140" height="115" src="" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image"/>
                               <span class="product-title">{{$sp->title}}</span>
                            </a>
-                                <del>
-                                    <span class="woocommerce-Price-amount amount">{{ number_format($sp->price, 0, ',', '.')}}&nbsp;
-                                 <span class="woocommerce-Price-currencySymbol">&#8363;</span>
-                                    </span>
-                                </del>
-                                <ins>
-                                    <span class="woocommerce-Price-amount amount">{{ number_format($sp->old_price, 0, ',', '.')}}&nbsp;
-                                 <span class="woocommerce-Price-currencySymbol">&#8363;</span>
-                                    </span>
-                                </ins>
+                                <span class="woocommerce-Price-amount amount">{{ number_format($sp->price, 0, ',', '.')}}&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></span>
                             </li>
                             @endforeach
                         </ul>
@@ -381,60 +368,48 @@
             <div class="top-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div id="text-5" class="widget-odd widget-last widget-first widget-1 widget widget_text">
-                                <h3 class="widget-title">Thông tin công ty Athaco</h3>
+                                <h3 class="widget-title">Thông tin RADOLIGHT</h3>
                                 <div class="textwidget">
-                                    <p>CÔNG TY TNHH-PT-TM ATHACO
-                                        <br /> Địa chỉ: 240A Dương Đình Hội, Phường Tăng Nhơn Phú B, Quận 9. TP HCM
+                                    <p>CÔNG TY TNHH RADOLIGHT
+                                        <br /> Địa chỉ: Đường Linh Trung, Phường Linh trung, Quận Thủ Đức, TP. Hồ Chí Minh
                                     </p>
-                                    <p>Hottile:</p>
-                                    <p>0938 982 410 – 028 6288 9269
-                                        <br /> 028 6278 4888 – 0984 563 564
-                                    </p>
-                                    <p>Gmail: athaco.q9@gmail.com</p>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div id="text-8" class="widget-odd widget-last widget-first widget-1 widget widget_text">
-                                <h3 class="widget-title">THÔNG TIN CHUYỂN KHOẢN</h3>
+                                <h3 class="widget-title">LIÊN HỆ</h3>
                                 <div class="textwidget">
-                                    <p>Tên TK: Nguyễn Văn Thao</p>
-                                    <p>ACB chi nhánh Quận 9.hcm
-                                        <br /> STK: 201962869
-                                    </p>
-                                    <p>AGRIBANK chi nhánh quận 9
-                                        <br /> STK: 6300205780118
-                                    </p>
-                                    <p>VIETCOMBANK chi nhánh sài gòn
-                                        <br /> STK: 0381000504824
-                                    </p>
-                                    <p>VIETINBANK chi nhánh phước long A quận 9
-                                        <br /> STK: 711AD6410322
-                                    </p>
+                                    <p>Nguyễn Minh Hiếu</p>
+                                    <p>Hottile: 0931436927</p>
+                                    <p>Zalo, viber: 0931436927</p>
+                                    <p>Email: nguyenminhhieu9696@gmail.com</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-4">
                             <div id="text-9" class="widget-odd widget-last widget-first widget-1 widget widget_text">
-                                <h3 class="widget-title">BẢN ĐỒ ATHACO</h3>
+                                <h3 class="widget-title">BẢN ĐỒ</h3>
                                 <div class="textwidget">
                                     <div class="footer-widget-container">
                                         <div class="textwidget">
-                                            
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3773348898253!2d106.76750253884255!3d10.858878146577721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175279d12082769%3A0x5e56386b132092e!2zNzMgxJDGsOG7nW5nIHPhu5EgNywgTGluaCBUcnVuZywgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1520223669037" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <!-- <div class="col-md-2">
                             <div id="text-13" class="widget-odd widget-last widget-first widget-1 widget widget_text">
                                 <div class="textwidget">
-                                 <p></p>
+                                    <p>
+                                    </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- .row -->
                 </div>

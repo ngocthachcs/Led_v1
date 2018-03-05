@@ -389,58 +389,48 @@
             <div class="top-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div id="text-5" class="widget-odd widget-last widget-first widget-1 widget widget_text">
-                                <h3 class="widget-title">Thông tin Công ty TNHH RADOLIGHT</h3>
+                                <h3 class="widget-title">Thông tin RADOLIGHT</h3>
                                 <div class="textwidget">
                                     <p>CÔNG TY TNHH RADOLIGHT
                                         <br /> Địa chỉ: Đường Linh Trung, Phường Linh trung, Quận Thủ Đức, TP. Hồ Chí Minh
                                     </p>
-                                    <p>Hottile:</p>
-                                    <p>0931436927 &#8211; Zalo, viber: 0931436927</p>
-                                    <p>Gmail: nguyenminhhieu9696@gmail.com</p>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-3">
+                        <div class="col-md-4">
                             <div id="text-8" class="widget-odd widget-last widget-first widget-1 widget widget_text">
-                                <h3 class="widget-title">THÔNG TIN CHUYỂN KHOẢN</h3>
+                                <h3 class="widget-title">LIÊN HỆ</h3>
                                 <div class="textwidget">
-                                    <p>Tên TK: Nguyễn Văn Thao</p>
-                                    <p>ACB chi nhánh Quận 9.hcm
-                                        <br /> STK: 201962869
-                                    </p>
-                                    <p>AGRIBANK chi nhánh quận 9
-                                        <br /> STK: 6300205780118
-                                    </p>
-                                    <p>VIETCOMBANK chi nhánh sài gòn
-                                        <br /> STK: 0381000504824
-                                    </p>
-                                    <p>VIETINBANK chi nhánh phước long A quận 9
-                                        <br /> STK: 711AD6410322
-                                    </p>
+                                    <p>Nguyễn Minh Hiếu</p>
+                                    <p>Hottile: 0931436927</p>
+                                    <p>Zalo, viber: 0931436927</p>
+                                    <p>Email: nguyenminhhieu9696@gmail.com</p>
                                 </div>
                             </div>
-                        </div> -->
-                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-4">
                             <div id="text-9" class="widget-odd widget-last widget-first widget-1 widget widget_text">
-                                <h3 class="widget-title">BẢN ĐỒ ATHACO</h3>
+                                <h3 class="widget-title">BẢN ĐỒ</h3>
                                 <div class="textwidget">
                                     <div class="footer-widget-container">
                                         <div class="textwidget">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3773348898253!2d106.76750253884255!3d10.858878146577721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175279d12082769%3A0x5e56386b132092e!2zNzMgxJDGsOG7nW5nIHPhu5EgNywgTGluaCBUcnVuZywgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1520223669037" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <!-- <div class="col-md-2">
                             <div id="text-13" class="widget-odd widget-last widget-first widget-1 widget widget_text">
                                 <div class="textwidget">
                                     <p>
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- .row -->
                 </div>
