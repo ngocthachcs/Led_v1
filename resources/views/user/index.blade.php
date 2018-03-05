@@ -1,20 +1,21 @@
 @extends('master-user')
 @section('content')
     <div id="metaslider_widget-5" class="widget-odd widget-first widget-1 section widget_metaslider_widget">
-        <h3 class="section-title clearfix">CÔNG TY TNHH PT &#8211; TM &#8211; ATHACO Hottile: 0984 563 564 &#8211; 028 6278 4888</h3>
+        <h3 class="section-title clearfix">CÔNG TY TNHH RADOLIGHT &#8211; Hottile: 0931436927</h3>
         <!-- meta slider -->
         <div style="width: 100%;" class="metaslider metaslider-responsive metaslider-881 ml-slider">
             <div id="metaslider_container_881">
                 <ul id='metaslider_881' class='rslides'>
                     <li>
-                        <a href="#" target="_blank">
-                   <img src="http://ledgiatot.vn/wp-content/uploads/2018/02/atlight.png" height="286" width="900" class="slider-881 slide-5029" title="ẢNH SLIDER" />
-                   <div class="caption-wrap">
-                      <div class="caption">Tell: 0984 563 564 - 028 6278 4888</div>
-                   </div>
-                </a>
+                        <div>
+                           <img src="assets/assets/banner.jpg" height="286" width="900" class="slider-881 slide-5029" title="ẢNH SLIDER" />
+                           <div class="caption-wrap">
+                              <div class="caption">Hotline: 0931436927</div>
+                           </div>
+                        </div>
                     </li>
-                    <li style='display: none;'><img src="http://ledgiatot.vn/wp-content/uploads/2018/02/atlight.png" height="286" width="900" alt="" class="slider-881 slide-5055" /></li>
+                    <li style='display: none;'><img src="http://ledgiatot.vn/wp-content/uploads/2018/02/atlight.png" height="286" width="900" alt="" class="slider-881 slide-5055" /></li>  
+
                 </ul>
             </div>
             <script type="text/javascript">

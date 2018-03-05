@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Trang chủ</title>
+    <title>RADOLIGHT</title>
+    <link rel="shortcut icon" href="assets/assets/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel='stylesheet' href='{{ URL('assets/content/plugins/accesspress-pinterest/css/frontend.css?ver=3.1.9')}}' type='text/css' media='all' />
     <link rel="stylesheet" type="text/css" href="{{ URL('assets/assets/css/font-awesome.min.css')}}">
     <link rel='stylesheet' id='contact-form-7-css' href='{{ URL('assets/content/plugins/contact-form-7/includes/css/styles.css?ver=4.8.1')}}' type='text/css' media='all' />
@@ -63,7 +65,8 @@
     </noscript>
     <style type="text/css" id="wp-custom-css">
     .ncn_support_widget .widget-title {
-        background: #158a00;
+        background: #23B574 !important;
+        color: #ffffff !important
     }
 
     .main-navigation {
@@ -97,8 +100,9 @@
         font-weight: bold;
     }
 
-    .widget-title {
-        background: #158a00;
+    .sidebar .widget-title {
+        background: #23B574;
+        color: #ffffff
     }
 
     .box-col-inner {
@@ -273,7 +277,7 @@
                         <!-- .btn-search-show-mdlg -->
                         <div class="header-nav-cart woocommerce col-md-1 hidden-sm hidden-xs">
                             <div class="ncn_cart_widget widget_shopping_cart">
-                                <div class="shopping-bag">
+                                <div class="shopping-bag" style="color: #23B574 !important">
                                     <i class="fa fa-shopping-bag"></i>
                                     <span><a href="{{URL('/')}}/gio-hang">{{ count(Cookie::get('giohang'))}}</a></span>
                                 </div>
@@ -303,20 +307,20 @@
                         <h3 class="widget-title">Hỗ trợ trực tuyến</h3>
                         <div class="support-item clearfix">
                             <div class="support-title">
-                                Hỗ trợ viên: <span>Nguyễn Văn Thao</span>
+                                <span>CÔNG TY TNHH RADOLIGHT</span>
                             </div>
                             <div class="support-info">
                                 <div class="support-thumbnail">
-                                    <img width="60" height="90" src="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" />
+                                    <img width="60" height="90" src="assets/assets/sp.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" />
                                 </div>
                                 <div class="support-chat">
-                                    <p><span style="color: #ff0000;"><strong>Zalo,Viber: 0938 982 410</strong></span>
+                                    <p><span style="color: #ff0000;"><strong>Zalo,Viber: 0931436927</strong></span>
                                         <br />
-                                        <span style="color: #ff0000;"><strong> Phone: 0938 982 410</strong></span>
+                                        <span style="color: #ff0000;"><strong> Phone: 0931436927</strong></span>
                                         <br />
-                                        <span style="color: #ff0000;"><strong> Hotline 1: 028 6278 4888</strong></span>
+                                        <span style="color: #ff0000;"><strong> Email: nguyenminhhieu9696@gmail.com</strong></span>
                                         <br />
-                                        <span style="color: #ff0000;"><strong> Hotline 2: 028 6288 9269</strong></span>
+                                        <!-- <span style="color: #ff0000;"><strong> Hotline 2: 028 6288 9269</strong></span> -->
                                     </p>
                                 </div>
                             </div>
@@ -387,20 +391,18 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div id="text-5" class="widget-odd widget-last widget-first widget-1 widget widget_text">
-                                <h3 class="widget-title">Thông tin công ty Athaco</h3>
+                                <h3 class="widget-title">Thông tin Công ty TNHH RADOLIGHT</h3>
                                 <div class="textwidget">
-                                    <p>CÔNG TY TNHH-PT-TM ATHACO
-                                        <br /> Địa chỉ: 240A Dương Đình Hội, Phường Tăng Nhơn Phú B, Quận 9. TP HCM
+                                    <p>CÔNG TY TNHH RADOLIGHT
+                                        <br /> Địa chỉ: Đường Linh Trung, Phường Linh trung, Quận Thủ Đức, TP. Hồ Chí Minh
                                     </p>
                                     <p>Hottile:</p>
-                                    <p>0938 982 410 – 028 6288 9269
-                                        <br /> 028 6278 4888 – 0984 563 564
-                                    </p>
-                                    <p>Gmail: athaco.q9@gmail.com</p>
+                                    <p>0931436927 &#8211; Zalo, viber: 0931436927</p>
+                                    <p>Gmail: nguyenminhhieu9696@gmail.com</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <!-- <div class="col-md-3">
                             <div id="text-8" class="widget-odd widget-last widget-first widget-1 widget widget_text">
                                 <h3 class="widget-title">THÔNG TIN CHUYỂN KHOẢN</h3>
                                 <div class="textwidget">
@@ -419,7 +421,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-2">
                             <div id="text-9" class="widget-odd widget-last widget-first widget-1 widget widget_text">
                                 <h3 class="widget-title">BẢN ĐỒ ATHACO</h3>

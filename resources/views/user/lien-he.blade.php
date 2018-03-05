@@ -14,12 +14,13 @@
         <!-- .entry-header -->
         <div class="entry-content">
            <div class="content_about"></div>
-           <div class="content_about"><strong>CÔNG TY TNHH PT &#8211; TM &#8211; ATHACO</strong></div>
-           <div class="content_about"><strong>Địa chỉ: 240A Dương Đình Hội &#8211; P. Tăng Nhơn phú</strong> <strong>B &#8211; Q.9</strong></div>
-           <div class="content_about"><strong>Cổng kho giữ xe vi phạm công an Quận 9</strong></div>
-           <div class="content_about"><strong>Hotline: 028 6278 4888 &#8211; 0984563 564 &#8211; 028.6288 9269</strong></div>
-           <div class="content_about"><strong>Website</strong>: <strong>http://ledgiatot.vn</strong></div>
-           <div class="content_about"><strong>Email</strong>: <strong>athaco.q9@gmail.com</strong></div>
+           <div class="content_about"><strong>CÔNG TY TNHH RADOLIGHT</strong></div>
+           <div class="content_about"><strong>Địa chỉ: Đường Linh Trung, Phường Linh trung, Quận Thủ Đức, TP. Hồ Chí Minh</strong></div>
+           
+           <div class="content_about"><strong>Hotline: 0931436927 &#8211; Zalo, viber: 0931436927</strong></div>
+           
+           <div class="content_about"><strong>Email</strong>: <strong>nguyenminhhieu9696@gmail.com</strong></div>
+           <br>
            <div role="form" class="wpcf7" id="wpcf7-f165-p78-o1" lang="vi" dir="ltr">
               <div class="screen-reader-response"></div>
               <form action="{{URL('/')}}/lien-he" method="post" class="wpcf7-form" novalidate="novalidate">
